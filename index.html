@@ -40,13 +40,61 @@
   li {
     margin-bottom: 15px;
   }
+
+  .subscript {
+    font-size: 8pt;
+    text-align: center
+  }
+
+  table.intro {
+    width: 100%
+  }
+
+  .intro-separator {
+    margin-bottom: 6%
+  }
+
+  .footer-separator {
+    padding-bottom: 28%
+  }
+
+  .imgtxt {
+    position: relative; top: 6px
+  }
+
+  .minibreak {
+    margin-bottom: 5px
+  }
+
+  .personal {
+    text-align:right
+  }
 </style>
 </head>
 
 <body>
-  <table>
+  <table class="intro">
+
     <tbody><tr>
-      <td style="padding-right: 10em; padding-left: 5em">
+
+    <td style="text-align: center">
+      <table>
+        <tr>
+          <td>
+            <img alt="Maciej Pacut" src="./photo.jpeg" height="300">
+            
+            
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="subscript">(photo 2020)</div>
+          </td>
+          
+        </tr>
+      </table>
+    </td>
+      <td>
         
         <h1>Maciej Pacut</h1>
         
@@ -62,31 +110,14 @@
         
         <br>
         
-          email: <img  style="position: relative; top: 6px" height="22" src="mail.png" alt="alternative text"><br>
+          email: <img class="imgtxt" height="22" src="mail.png" alt="alternative text"><br>
           <br>
       </td>
       
-      <td style="text-align: center">
-        <table>
-          <tr>
-            <td>
-              <img alt="Maciej Pacut" src="./photo.jpeg" height="300">
-              
-              
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <div style="font-size: 8pt; text-align: center">(photo 2020)</div>
-            </td>
-            
-          </tr>
-        </table>
-      </td>
     </tr>
   </tbody></table>
   
-  <div style="margin-bottom: 60px"></div>
+  <div class="intro-separator"></div>
   
   <h2 class="section">Research</h2>
   
@@ -100,10 +131,9 @@
       <b><a href="papers/knapsack-icalp2020.pdf">An Optimal Algorithm for Online Multiple Knapsack</a></b><br>
       Marcin Bienkowski, Maciej Pacut, Krzysztof Piecuch<br>
 
-    <div style="margin-bottom: 5px"></div>
+    <div class="minibreak"></div>
       
       International Colloquium on Automata, Languages and Programming, Track A (<b>ICALP 2020</b>)
-    <div style="margin-bottom: 10px"></div>
 
     </li>
   
@@ -111,21 +141,19 @@
     <b><a href="papers/treecaching-spaa2017.pdf">Online Tree Caching</a></b><br>
     Marcin Bienkowski, Jan Marcinkowski, Maciej Pacut, Stefan Schmid, Aleksandra Spyra<br>
 
-    <div style="margin-bottom: 5px"></div>
+    <div class="minibreak"></div>
     
     ACM Symposium on Parallelism in Algorithms and Architectures (<b>SPAA 2017</b>)
-    <div style="margin-bottom: 10px"></div>
 
   </li>
 
   <li>
     <b><a href="papers/repartition-disc2016.pdf">Online Balanced Repartitioning</a></b><br>
     Chen Avin, Andreas Loukas, Maciej Pacut, Stefan Schmid<br>
-    <div style="margin-bottom: 5px"></div>
+
+    <div class="minibreak"></div>
     
     International Symposium on Distributed Computing (<b>DISC 2016</b>)
-    <div style="margin-bottom: 10px"></div>
-
   </li>
 
 </ul>
@@ -168,10 +196,10 @@
 
 <h2 class="section" style="text-align:right">Personal</h2>
 
-<div style="text-align:right">
+<div class="personal">
   Born 1989 in Poland. Maciej Pacut is pronounced <a href="https://en.wiktionary.org/wiki/Maciej">/ˈma.t͡ɕɛj</a><span style="padding-right:6px"></span> <a href="https://itinerarium.github.io/phoneme-synthesis">'pa.t͡sut/</a>.
 
-    <p style="padding-bottom:250px"></p>
+    <p class="footer-separator"></p>
     <img width="100" src="footer.jpg" alt="alternative text">
     </div>
   </body>
