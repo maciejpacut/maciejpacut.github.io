@@ -31,14 +31,7 @@
   a[href]:hover {
     text-decoration: underline;
   }
-  
-  h2.section {
-    padding-bottom: 1%;
-    margin-top: 6%;
-    border-bottom: solid 2px;
-  }
-
-  li {
+   li {
     margin-bottom: 2%;
   }
 
@@ -70,6 +63,31 @@
   .personal {
     text-align:right
   }
+
+  .name {
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+  }
+
+  .faculty {
+      font-size: 1.17em;
+      font-weight: bold;
+  }
+    .info {
+        font-size: 1.12em;
+        font-weight: bold;
+    }
+  h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  .section {
+    padding-bottom: 1%;
+    margin-top: 6%;
+    border-bottom: solid 2px;
+  }
+
 </style>
 </head>
 
@@ -94,12 +112,12 @@
     </td>
       <td>
         
-        <h1>Maciej Pacut</h1>
+        <div class="name">Maciej Pacut</div>
         
-        <h3>Postdoctoral researcher<br><br>
+        <div class="faculty">Postdoctoral researcher<br><br>
           Faculty of Computer Science<br>
           University of Vienna<br>
-        </h3>
+        </div>
         
           <br>
           Office 5.41<br>
@@ -117,10 +135,10 @@
   
   <div class="intro-separator"></div>
   
-  <h2 class="section">Research</h2>
+  <h1 class="section">Research</h2>
   
-  <h4>Topics: online algorithms, self-adjusting networks
-  </h4>
+  <div class="info">Topics: online algorithms, self-adjusting networks
+  </div>
   
   Selected publications:
   
@@ -166,12 +184,12 @@
 </p>
 
 
-<h2 class="section">Duties</h2>
+<h1 class="section">Duties</h2>
 
 <p>Reviewer for <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=71">IEEE Transactions on Parallel and Distributed Systems</a></p>
 
 
-<h2 class="section">Short CV</h2>
+<h1 class="section">Short CV</h2>
 
 <ul>
   <li>
@@ -212,7 +230,7 @@
 </ul>
 
 
-<h2 class="section" style="text-align:right">Personal</h2>
+<h1 class="section" style="text-align:right">Personal</h2>
 
 <div class="personal">
   Born 1989 in Poland. Maciej Pacut is pronounced <a href="https://en.wiktionary.org/wiki/Maciej">/ˈma.t͡ɕɛj</a><span style="padding-right:6px"></span> <a href="https://itinerarium.github.io/phoneme-synthesis">'pa.t͡sut/</a>.
